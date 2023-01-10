@@ -1,0 +1,22 @@
+.footer{
+background-color:$main-background-color;
+color:$white;
+padding-top: 60px;
+padding-bottom: 60px;
+      
+      
+&__contact-logo{
+font-family: "Raleway";
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-decoration: none;}
+      
+&__contact-logo--color{
+color: $light-blue;}
+      
+    
+&__contact-logo--nonecolor {
+color: $white;}}

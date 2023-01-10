@@ -1,0 +1,31 @@
+.clients{
+padding-top: 94px;
+padding-bottom: 94px;
+    
+&__title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+padding-bottom: 50px;}
+    
+&__links{
+list-style-type: none;
+display: flex;
+gap:30px;}
+    
+&__logo{
+border: 1px solid $our-clients-border;
+border-radius: 4px;
+padding:16px 32px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+    
+&__logo:hover,
+&__logo:focus{border-color:$light-blue;
+transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+cursor:pointer;}
+    
+&__logo:hover svg,
+&__logo:focus svg{
+ fill:$light-blue;
+ transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+}
