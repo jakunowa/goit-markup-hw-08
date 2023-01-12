@@ -6,14 +6,15 @@ padding-top: 60px;
 &__links{ 
 display:flex;
 flex-wrap: wrap;
-justify-content: center;
-align-items: center;
 list-style-type:none;
-justify-content:space-around;
 padding-right:15px;
-padding-left:15px;}
+padding-left:15px;
+gap:30px;}
 
+&__links li{ width:100%;
+max-width:450px;}
 
+@media(min-width:768px){ width:354px;}
 
 
 
