@@ -155,7 +155,12 @@
           <ul class="team__links">
             <li >
               <figure class="team__img">
-                <img src="images/Our_Team/img1.jpg" width="270" height="260" alt="John Doe"/>
+                <!-- <img src="images/Our_Team/img1.jpg" width="270" height="260" alt="John Doe"/> -->
+                <picture>
+                  <source media="(min-width:1200px)" srcset="images/Our_Team/img-1"/>
+                  <source media="(min-width:768px)" srcset="./images/Our_Team/img1-768.jpg" />
+                  <img src="./images/Our_Team/img1@2.jpg" alt="John Doe"/>
+                </picture>
                 <figcaption>
                   <h3 class="team__name">John Doe</h3>
                   <p class="team__description">Product Designer</p>

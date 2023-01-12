@@ -17,6 +17,7 @@
         margin:0;
         padding-right:15px;
         cursor: pointer;
+        @media(min-width:1200px){display:none;}
      }   
      &__mobile-icon:hover,
      &__mobile-icon:after{

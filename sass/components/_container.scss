@@ -1,6 +1,7 @@
 
 .container{
     margin:0 auto;
+    @media(min-width:1200px){width:1200px;}
 
 
 
@@ -18,8 +19,7 @@ justify-content: center;
 display:block;
 }
 
-
-
+&__lorem{max-width:1200px;}
 &__team{
 display: flex;
 flex-wrap: wrap;
