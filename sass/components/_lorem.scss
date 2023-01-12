@@ -5,22 +5,25 @@ padding-top: 60px;
   
 &__links{ 
 display:flex;
-display:block;
-list-style-type:none;
+flex-wrap: wrap;
 justify-content: center;
-align-items:center ;
-gap:30px;
+align-items: center;
+list-style-type:none;
+justify-content:space-around;
 padding-right:15px;
 padding-left:15px;}
 
 
-&__icon{
 
+
+
+
+&__icon{
+display: flex;
 background:$lorem-icon-background;
 border-radius: 4px;
-display: flex;
-align-items: center;
-height:130px;
+padding-top:25px;
+padding-bottom:25px;
 margin-bottom:30px;
 }
 
