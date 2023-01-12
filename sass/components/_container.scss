@@ -1,5 +1,6 @@
 
 .container{
+    margin:0 auto;
 
 
 
@@ -7,6 +8,14 @@
 &__header {
 display: flex;
 align-items: center;
+margin:0 auto;
+
+}
+
+&__hero{
+display: flex;
+justify-content: center;
+display:block;
 }}
 
 // .container {
