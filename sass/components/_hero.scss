@@ -1,11 +1,14 @@
 .hero {
 display: flex;
-// background-image:linear-gradient(#2F303A66, #2F303A66),
-// url('../images/Img.jpg');
+background-image:linear-gradient(#2F303A66, #2F303A66),
+url('../images/Img@2.jpg');
+background-size:fill;
 background-color:$main-background-color;
 color:$white;
 align-items: center;
 justify-content: center;
+
+
 
 &__title {
     font-weight: 600;
