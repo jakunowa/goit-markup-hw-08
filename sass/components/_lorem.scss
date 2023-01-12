@@ -1,3 +1,47 @@
+.lorem{
+padding-top: 60px;
+padding-bottom: 60px;
+
+  
+&__links{ 
+display:flex;
+display:block;
+list-style-type:none;
+justify-content: center;
+align-items:center ;
+gap:30px;
+padding-right:15px;
+padding-left:15px;}
+
+
+&__icon{
+
+background:$lorem-icon-background;
+border-radius: 4px;
+display: flex;
+align-items: center;
+height:130px;
+margin-bottom:30px;
+}
+
+&__title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+padding-bottom: 10px;
+text-align: center;}
+    
+&__subtitle {
+font-size: 14px;
+line-height: 1.71;
+color:$grey;
+letter-spacing: 0.03em;
+margin-bottom:30px;}}
+    
+
+
+
 // .lorem{
 // padding-top: 94px;
 // padding-bottom: 94px;
