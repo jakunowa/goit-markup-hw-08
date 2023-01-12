@@ -1,12 +1,26 @@
+.form-main{width:100%;
+display: flex;}
+
+
 .form{
 display:flex;
 align-items:flex-end;
 gap:12px;
 flex-direction: column;
+width:100%;
+padding-left:15px;
+padding-right:15px;
+justify-content: center;
+
     
 &__input
 {display: flex;
-flex-direction: column;}
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:100%;
+padding:0 20px;
+}
     
 &__label{
 font-style:Bold;
@@ -15,7 +29,6 @@ font-weight: 700;
 line-height:1,14;
 letter-spacing:3%;
 padding-bottom:20px;
-margin:0 auto;
 display: block;}
     
 &__input-details{
