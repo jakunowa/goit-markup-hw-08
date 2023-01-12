@@ -1,45 +1,60 @@
 
-.container {
-    width:1200px;
+.container{
+
 
 
 
 &__header {
 display: flex;
 align-items: center;
-justify-content: center; 
-}
+}}
 
-&__main{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;}
+// .container {
+//     width:1200px;
+// }
 
-&__job{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;}
 
-&__team{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
 
-&__clients{
-display: flex;;
-justify-content: center;
-align-items: center;
-flex-direction: column;}
+// &__header {
+// display: flex;
+// align-items: center;
+// justify-content: center;
 
-&__footer{
-display: flex;
-}
+// }
+ 
 
-&__portfolio{
-display: flex;
-align-items: center;
-justify-content: center; }}
+
+// &__main{
+// display: flex;
+// flex-direction: column;
+// justify-content: center;
+// align-items: center;}
+
+// &__job{
+// display: flex;
+// flex-direction: column;
+// justify-content: center;
+// align-items: center;}
+
+// &__team{
+// display: flex;
+// flex-direction: column;
+// justify-content: center;
+// align-items: center;
+// }
+
+// &__clients{
+// display: flex;;
+// justify-content: center;
+// align-items: center;
+// flex-direction: column;}
+
+// &__footer{
+// display: flex;
+// }
+
+// &__portfolio{
+// display: flex;
+// align-items: center;
+// justify-content: center;
+//  }}

@@ -116,7 +116,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  border: 2 px dashed red;
 }
 .container__header {
   display: flex;
