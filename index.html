@@ -19,17 +19,9 @@
   <body>
 <header class="header">
       <div class="container container__header">
-        <div  class="header__mobile">
         <a class="header__logo" href="index.html">
-          
           <span class="header__logo-color"> Web</span>Studio
           </a>
-         <a class="header__mobile-icon">
-          <svg  width="40" height="40">
-            <use href="images/icons.svg#icon-menu_40px"></use>
-          </svg>
-         </a> 
-        </div>
         <nav class="navigation">
           <ul class="navigation__links">
             <li>
@@ -65,7 +57,7 @@
      <!-- MAIN START-->
         <!-- HERO START-->
         <section class="hero">
-          <div class="container container__hero">
+          <div class="container container__main">
             <h1 class="hero__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
             <button class="hero__button" type="button" data-modal-open>Zamów usługe</button>
           </div>
@@ -73,7 +65,7 @@
 <!-- HERO END-->
       <!-- LOREM SECTION START-->
       <section class="lorem">
-        <div class="container container__lorem">
+        <div class="container">
           <ul class="lorem__links">
              <li>
               <div class="lorem__icon">
@@ -155,12 +147,7 @@
           <ul class="team__links">
             <li >
               <figure class="team__img">
-                <!-- <img src="images/Our_Team/img1.jpg" width="270" height="260" alt="John Doe"/> -->
-                <picture>
-                  <source media="(min-width:1200px)" srcset="./images/Our_Team/img1.jpg"/>
-                  <source media="(min-width:768px)" srcset="./images/Our_Team/img1-768.jpg" />
-                  <img src="./images/Our_Team/img1@2x.jpg" alt="John Doe"/>
-                </picture>
+                <img src="images/Our_Team/img1.jpg" width="270" height="260" alt="John Doe"/>
                 <figcaption>
                   <h3 class="team__name">John Doe</h3>
                   <p class="team__description">Product Designer</p>
@@ -201,12 +188,7 @@
             </li>
             <li>
               <figure class="team__img">
-                <!-- <img src="images/Our_Team/img2.jpg" width="270" height="260" alt="John Doe"/> -->
-                <picture>
-                  <source media="(min-width:1200px)" srcset="images/Our_Team/img2.jpg"/>
-                  <source media="(min-width:768px)" srcset="./images/Our_Team/img2-768.jpg" />
-                  <img src="./images/Our_Team/img2@2x.jpg" alt="John Doe"/>
-                </picture>
+                <img src="images/Our_Team/img2.jpg" width="270" height="260" alt="John Doe"/>
                 <figcaption>
                   <h3 class="team__name">John Doe</h3>
                   <p class="team__description">Frontend Developer</p>
@@ -247,12 +229,7 @@
             </li>
             <li>
               <figure class="team__img">
-                <!-- <img src="images/Our_Team/img3.jpg" width="270" height="260" alt="John Doe"/> -->
-                <picture>
-                  <source media="(min-width:1200px)" srcset="images/Our_Team/img3.jpg"/>
-                  <source media="(min-width:768px)" srcset="./images/Our_Team/img3-768.jpg" />
-                  <img src="./images/Our_Team/img3@2x.jpg" alt="John Doe"/>
-                </picture>
+                <img src="images/Our_Team/img3.jpg" width="270" height="260" alt="John Doe"/>
                 <figcaption>
                   <h3 class="team__name">John Doe</h3>
                   <p class="team__description">Marketing</p>
@@ -293,12 +270,7 @@
             </li>
             <li>
               <figure class="team__img">
-                <!-- <img src="images/Our_Team/img4.jpg" width="270" height="260" alt="John Doe"/> -->
-                <picture>
-                  <source media="(min-width:1200px)" srcset="images/Our_Team/img4.jpg" />
-                  <source media="(min-width:768px)" srcset="./images/Our_Team/img4-768.jpg" />
-                  <img src="./images/Our_Team/img4@2x.jpg" alt="John Doe"/>
-                </picture>
+                <img src="images/Our_Team/img4.jpg" width="270" height="260" alt="John Doe"/>
                 <figcaption>
                   <h3 class="team__name">John Doe</h3>
                   <p class="team__description">UI Designer</p>
@@ -437,7 +409,7 @@
             </li>
           </ul>
         </div>
-         <form class="form-main">
+         <form>
           <div class="form">
             <div class="form__input">
               <label for="email" class="form__label">ZAPISZ SIE DO NEWSLETTERA</label>

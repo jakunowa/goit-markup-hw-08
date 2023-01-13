@@ -1,98 +1,44 @@
 
-.container{
-    margin:0 auto;
-    @media(min-width:1200px){width:1200px;}
-    @media(min-width:768px){width:768px;}
 
-
-
-
-&__header {
-display: flex;
-align-items: center;
-margin:0 auto;
-@media(min-width:768px){
-justify-content: center;}
-
-}
-
-&__hero{
-display: flex;
-justify-content: center;
-display:block;
-}
-
-&__lorem{max-width:1200px;}
-&__team{
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-
-}
-&__clients{
-display: flex;;
-justify-content: center;
-align-items: center;
-flex-direction: column;}
-
-
-&__footer{
-    display:flex;
-  justify-content: center;
+.container {
+  width: 1200px; 
+  
+  &__header {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  }
+  
+  &__main{
+  display: flex;
   flex-direction: column;
-}
-
-
-
-}
-// .container {
-//     width:1200px;
-// }
-
-
-
-// &__header {
-// display: flex;
-// align-items: center;
-// justify-content: center;
-
-// }
- 
-
-
-// &__main{
-// display: flex;
-// flex-direction: column;
-// justify-content: center;
-// align-items: center;}
-
-// &__job{
-// display: flex;
-// flex-direction: column;
-// justify-content: center;
-// align-items: center;}
-
-// &__team{
-// display: flex;
-// flex-direction: column;
-// justify-content: center;
-// align-items: center;
-// }
-
-// &__clients{
-// display: flex;;
-// justify-content: center;
-// align-items: center;
-// flex-direction: column;}
-
-// &__footer{
-// display: flex;
-// }
-
-// &__portfolio{
-// display: flex;
-// align-items: center;
-// justify-content: center;
-//  }}
+  justify-content: center;
+  align-items: center;}
+  
+  &__job{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;}
+  
+  &__team{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  &__clients{
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;}
+  
+  &__footer{
+  display: flex;
+  }
+  
+  &__portfolio{
+  display: flex;
+  align-items: center;
+  justify-content: center; }}

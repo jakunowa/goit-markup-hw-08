@@ -1,78 +1,78 @@
 .lorem{
-padding-top: 60px;
-
-
-
-  
-&__links{ 
-display:flex;
-flex-wrap: wrap;
-list-style-type:none;
-padding-right:15px;
-padding-left:15px;
-gap:30px;}
-
-&__links li{ width:100%;
-max-width:450px;
-
-@media(min-width:768px){ width:354px;}
-@media(min-width:1200px){width:270px;}
-
-}
-
-
-&__icon{
-display: flex;
-background:$lorem-icon-background;
-border-radius: 4px;
-padding-top:25px;
-padding-bottom:25px;
-margin-bottom:30px;
-}
-
-&__title{
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-padding-bottom: 10px;
-text-align: center;}
+    padding-top: 60px;
     
-&__subtitle {
-font-size: 14px;
-line-height: 1.71;
-color:$grey;
-letter-spacing: 0.03em;
-margin-bottom:60px;}}
     
-
-
-
-// .lorem{
-// padding-top: 94px;
-// padding-bottom: 94px;
     
-// &__links{ 
-// display:flex;
-// list-style-type:none;
-// gap:30px;}
+      
+    &__links{ 
+    display:flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+    padding-right:15px;
+    padding-left:15px;
+    gap:30px;}
     
-// &__icon{
-// padding: 25px 102.34px;
-// margin-bottom: 30px;
-// background:$lorem-icon-background;
-// border-radius: 4px;}
+    &__links li{ width:100%;
+    max-width:450px;
     
-// &__title{
-// font-weight: 700;
-// font-size: 14px;
-// line-height: 1.14;
-// letter-spacing: 0.03em;
-// padding-bottom: 10px;}
+    @media(min-width:768px){ width:354px;}
+    @media(min-width:1200px){width:270px;}
     
-// &__subtitle {
-// font-size: 14px;
-// line-height: 1.71;
-// color:$grey;
-// letter-spacing: 0.03em;}}
+    }
     
+    
+    &__icon{
+    display: flex;
+    background:$lorem-icon-background;
+    border-radius: 4px;
+    padding-top:25px;
+    padding-bottom:25px;
+    margin-bottom:30px;
+    }
+    
+    &__title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    padding-bottom: 10px;
+    text-align: center;}
+        
+    &__subtitle {
+    font-size: 14px;
+    line-height: 1.71;
+    color:$grey;
+    letter-spacing: 0.03em;
+    margin-bottom:60px;}}
+        
+    
+    
+    
+    // .lorem{
+    // padding-top: 94px;
+    // padding-bottom: 94px;
+        
+    // &__links{ 
+    // display:flex;
+    // list-style-type:none;
+    // gap:30px;}
+        
+    // &__icon{
+    // padding: 25px 102.34px;
+    // margin-bottom: 30px;
+    // background:$lorem-icon-background;
+    // border-radius: 4px;}
+        
+    // &__title{
+    // font-weight: 700;
+    // font-size: 14px;
+    // line-height: 1.14;
+    // letter-spacing: 0.03em;
+    // padding-bottom: 10px;}
+        
+    // &__subtitle {
+    // font-size: 14px;
+    // line-height: 1.71;
+    // color:$grey;
+    // letter-spacing: 0.03em;}}
+        
