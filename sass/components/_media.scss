@@ -2,6 +2,10 @@
 
     margin-bottom:60px;
     width:100%;
+
+    @media(min-width:768px){
+        width:50%;
+    }
     @media(min-width:1200px){
     margin-left:80px;
     margin-right:100px;
@@ -19,8 +23,10 @@ width:unset;}
     letter-spacing:3%;
     margin-bottom:20px;
 
+  
 @media(min-width:1200px){
     text-align: unset;
+    width:unset;
 }}
         
     &__list{
