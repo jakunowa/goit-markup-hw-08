@@ -1,7 +1,9 @@
 
 
 .container {
-  width: 1200px; 
+  
+
+  max-width: 1200px; 
   
   &__header {
   display: flex;
@@ -35,7 +37,16 @@
   flex-direction: column;}
   
   &__footer{
-  display: flex;
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+
+
+    @media(min-width:1200px){
+  max-width:1200px;
+    }
   }
   
   &__portfolio{

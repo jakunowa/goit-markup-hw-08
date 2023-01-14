@@ -1,4 +1,5 @@
 .header {
+    
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color:$border-bottom-color;
@@ -6,6 +7,19 @@
         
         
     &__logo {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:$black;
+text-decoration: none;
+margin: 0 auto;
+// 
+
+
+     @media(min-width:1200px){   
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -13,28 +27,56 @@
     line-height: 1.19;
     color:$black;
     margin-right: 93px;
-    text-decoration: none;
-    }
+    
+    }}
         
     &__logo-color {
     color:$light-blue;
     }
     
+    &__mobile-menu{
+    justify-content: space-between;
+    margin-left:15px;}
+    
+    &__burger{
+        @media(min-width:768px)
+    {display:none;}    }
+
     &__contact{
+        display:none;
+
+        @media(min-width:768px){
+            display:block;
+            list-style-type: none;
+            
+        }
+
+     @media(min-width:1200px){   
     display: flex;
     list-style-type: none;
     margin-left: 371px;
-    gap:32px;}
+    gap:32px;}}
             
     &__contact-links{
-    font-style: normal;
+
+      display:none;
+
+      @media(min-width:768px){
+        display:block;
+        font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: $black;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    text-decoration: none;} 
+    text-decoration: none;
+      }
+
+
+
+        @media(min-width:1200px){
+    } }
             
     &__contact-links:hover svg,
     &__contact-links:focus svg{ fill:$light-blue;} 
@@ -46,3 +88,52 @@
     &__contact-icon{vertical-align: middle; 
     fill: $grey;
     margin-right:10px;}}
+
+    // .header {
+    //     border-bottom-width: 1px;
+    //     border-bottom-style: solid;
+    //     border-bottom-color:$border-bottom-color;
+    //     display: flex;
+            
+            
+    //     &__logo {
+    //     font-family: "Raleway";
+    //     font-style: normal;
+    //     font-weight: 700;
+    //     font-size: 26px;
+    //     line-height: 1.19;
+    //     color:$black;
+    //     margin-right: 93px;
+    //     text-decoration: none;
+    //     }
+            
+    //     &__logo-color {
+    //     color:$light-blue;
+    //     }
+        
+    //     &__contact{
+    //     display: flex;
+    //     list-style-type: none;
+    //     margin-left: 371px;
+    //     gap:32px;}
+                
+    //     &__contact-links{
+    //     font-style: normal;
+    //     font-weight: 500;
+    //     font-size: 14px;
+    //     line-height: 1.14;
+    //     letter-spacing: 0.02em;
+    //     color: $black;
+    //     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    //     text-decoration: none;} 
+                
+    //     &__contact-links:hover svg,
+    //     &__contact-links:focus svg{ fill:$light-blue;} 
+                
+    //     &__contact-links:focus,
+    //     &__contact-links:hover {
+    //     color:$light-blue;}
+                
+    //     &__contact-icon{vertical-align: middle; 
+    //     fill: $grey;
+    //     margin-right:10px;}}

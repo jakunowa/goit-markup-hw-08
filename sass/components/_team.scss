@@ -11,9 +11,12 @@
     padding-bottom: 50px;}
         
     &__links{
-    list-style-type: none;
+        list-style-type: none;
+        flex-wrap:wrap;
+        @media(min-width:1200px){
+    
     display:flex;
-    gap:30px;}
+    gap:30px;}}
         
     &__img{
     background:$white;

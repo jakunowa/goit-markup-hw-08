@@ -9,8 +9,10 @@
     padding-bottom: 50px;}
         
     &__links{
+        display: flex;
+    flex-wrap:wrap;
     list-style-type: none;
-    display: flex;
+    
     gap:30px;}
         
     &__logo{

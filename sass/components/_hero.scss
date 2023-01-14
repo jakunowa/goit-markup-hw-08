@@ -1,4 +1,18 @@
 .hero {
+
+    display: flex;
+    background-image:cover;
+    background-position: center;
+
+
+
+    background-image:linear-gradient(#2F303A66, #2F303A66),
+    url('../images/Img.jpg');
+    background-color: var(--main-background-color);
+    margin:0 auto;  
+    color:$white;
+
+    @media(min-width:1200px){
     display: flex;
     padding-top: 94px;
     margin-bottom: 94px;
@@ -7,7 +21,7 @@
     url('../images/Img.jpg');
     background-color: var(--main-background-color);
     margin:0 auto;  
-    color:$white;
+    color:$white;}
         
     &__title {
     font-weight: 900;
