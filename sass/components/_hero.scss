@@ -37,6 +37,11 @@ padding-right:58px;
 padding-left:57px;
 margin-bottom: 30px;
 
+@media(min-width:768px){
+    padding-right:201px;
+padding-left:202px;
+}
+
         @media(min-width:1200px){
     font-size: 44px;
     line-height: 1.36;

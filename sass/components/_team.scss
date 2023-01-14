@@ -1,8 +1,13 @@
 .team {
+
+
+    padding-top:60px;
+    padding-bottom:60px;
     display: flex;
     background:$lorem-icon-background;
+    @media(min-width:1200px){
     padding-top: 94px;
-    padding-bottom:94px;
+    padding-bottom:94px;}
           
     &__title {
     font-weight: 700;
@@ -12,11 +17,13 @@
         
     &__links{
         list-style-type: none;
+        display:flex;
         flex-wrap:wrap;
-        @media(min-width:1200px){
+        gap:30px;
+    //     @media(min-width:1200px){
     
-    display:flex;
-    gap:30px;}}
+    // display:flex;
+   }
         
     &__img{
     background:$white;
