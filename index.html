@@ -23,7 +23,7 @@
         <a class="header__logo" href="index.html">
           <span class="header__logo-color"> Web</span>Studio
           </a>
-          <svg class="header__burger" width="40" height="40">
+          <svg class="header__burger js-open-menu" width="40" height="40">
             <use href="images/icons.svg#icon-menu_40px"></use>
           </svg>
           </div>
@@ -157,9 +157,9 @@
                 srcset="/images/Our_Team/img1.jpg  270w,
                 images/Our_Team/img1mob@1x.jpg    450w,
                 images/Our_Team/img1mob@2x.jpg    900w,
-                images/Our_Team/img1tab@1x.jpg     354w,
-                images/Our_Team/img1tab@2x.jpg   708w,"
-                sizes="(min-width:480px) 450w, (min-width: 768px) 354px, (min-width:1200px) 270px, 90vw"/>
+                images/Our_Team/img1tab@1.jpg     354w,
+                images/Our_Team/img1tab@2.jpg   708w,"
+                sizes="(min-width:480px) 450px, (min-width: 768px) 354px, (min-width:1200px) 270px, 90vw"/>
                 <!-- <img src="images/Our_Team/img1-1200px.jpg" width="270" height="260" alt="John Doe"/> -->
                 <figcaption>
                   <h3 class="team__name">John Doe</h3>
@@ -208,7 +208,7 @@
                 images/Our_Team/img2mob@x2.jpg    900w,
                 images/Our_Team/img2tab@x1.jpg     354w,
                 images/Our_Team/img2tab@x2.jpg   708w,"
-                sizes="(min-width:480px) 450w, (min-width: 768px) 354px, (min-width:1200px) 270px, 90vw"/>
+                sizes="(min-width:480px) 450px, (min-width: 768px) 354px, (min-width:1200px) 270px, 90vw"/>
                 <!-- <img src="images/Our_Team/img2.jpg" width="270" height="260" alt="John Doe"/> -->
                 <figcaption>
                   <h3 class="team__name">John Doe</h3>
@@ -257,7 +257,7 @@
                 images/Our_Team/img3mob@x2.jpg    900w,
                 images/Our_Team/img3tab@x1.jpg     354w,
                 images/Our_Team/img3tab@x2.jpg   708w,"
-                sizes="(min-width:480px) 450w, (min-width: 768px) 354px, (min-width:1200px) 270px, 90vw"/>
+                sizes="(min-width:480px) 450px, (min-width: 768px) 354px, (min-width:1200px) 270px, 90vw"/>
                 <!-- <img src="images/Our_Team/img3.jpg" width="270" height="260" alt="John Doe"/> -->
                 <figcaption>
                   <h3 class="team__name">John Doe</h3>
@@ -306,7 +306,7 @@
                 images/Our_Team/img4mob@x2.jpg    900w,
                 images/Our_Team/img4tab@x1.jpg     354w,
                 images/Our_Team/img4tab@x2.jpg   708w,"
-                sizes="(min-width:480px) 450w, (min-width: 768px) 354px, (min-width:1200px) 270px, 90vw"/>
+                sizes="(min-width:480px) 450px, (min-width: 768px) 354px, (min-width:1200px) 270px, 90vw"/>
                 <!-- <img src="images/Our_Team/img4.jpg" width="270" height="260" alt="John Doe"/> -->
                 <figcaption>
                   <h3 class="team__name">John Doe</h3>
@@ -462,6 +462,15 @@
       </div>
     </form>
         <!-- FOOTER SECTION END-->
+        <div class="menu-container js-menu-container" id="mobile-menu">
+        
+          <ul class="mobile-menu">
+            <li><a href="" class="link">About</a></li>
+            <li><a href="" class="link">Products</a></li>
+            <li><a href="" class="link">Contacts</a></li>
+            <li><a href="" class="link">Career</a></li>
+          </ul>
+        </div>
       <!-- MODAL SECTION START-->
         <div class="overlay overlay__is-hidden" data-modal>
           <div class="modal">
