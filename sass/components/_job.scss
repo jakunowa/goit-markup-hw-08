@@ -1,9 +1,14 @@
 
 
 .job{
+
+    display:none;
+    @media(min-width:1200px){
+
+    
 display:flex;
 padding-bottom:94px;
-display:none;
+    }
 
     
 &__title {
