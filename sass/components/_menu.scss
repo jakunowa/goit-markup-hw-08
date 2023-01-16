@@ -35,6 +35,7 @@ margin-left:40px;
 display:flex;
 flex-direction:column;
 gap:32px;
+margin-bottom:302px;
 }
 
 &__navigation-links {
@@ -46,6 +47,83 @@ font-weight: 500;
 font-size: 40px;
 line-height:1,17;
 letter-spacing: 0.02em;
+margin:unset;
+list-style-type:none;
+
+a
+{text-decoration: none;
+color:$black;}}
+
+&__contact{
+margin-left:40px;
+display:flex;
+flex-direction: column;
+gap:32px;
+list-style-type: none;
+}
+
+&__contact-tel{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 1,25;
+letter-spacing:0.02em;
+color:$light-blue;
+margin:unset;
+a
+{text-decoration: none;
+color:$light-blue;}}
+
+
+&__contact-email{
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 1,16;
+letter-spacing:0.02em;
+color:$grey;
+margin:unset;
+margin-bottom:64px;
+a
+{text-decoration: none;
+    color:$grey;}}
+
+&__socials{
+:last-child{border:none;}
+
+display: flex;
+flex-wrap:wrap;
+justify-content:center;
+li{border-right: 1px solid rgba(33,33,33,.2);
+}}
+
+
+    
+&__socials-link{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height:1,22;
+letter-spacing: 0.02em;
+text-decoration: none;
+color:$light-blue;
+padding-right:10px;
+
 
 
 }}
+
+
+
+
+
+
+
+
+
+
+
