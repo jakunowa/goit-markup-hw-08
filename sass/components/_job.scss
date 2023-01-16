@@ -2,9 +2,11 @@
 
 .job{
 
-
-display:flex;
+display:none;
 padding-bottom:94px;
+@media(min-width:1200px){
+    display:flex;
+}
 
 
     
