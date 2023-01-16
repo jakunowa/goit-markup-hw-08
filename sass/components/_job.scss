@@ -2,13 +2,10 @@
 
 .job{
 
-    display:none;
-    @media(min-width:1200px){
 
-    
 display:flex;
 padding-bottom:94px;
-    }
+
 
     
 &__title {
@@ -18,6 +15,7 @@ line-height: 1.16;
 padding-bottom: 50px;}
     
 &__links{
+
 display:flex;
 list-style-type:none;
 gap:30px;
