@@ -24,8 +24,8 @@
 background-color: transparent;
 border: none;}
 
-&__toggle svg:hover ,
-&__toggle svg:focus{ color:$light-blue;}
+&__toggle:hover svg,
+&__toggle:focus svg{ fill:$light-blue;}
 
 &__cls-btn{
 position: absolute;
@@ -100,13 +100,12 @@ a
     color:$grey;}}
 
 &__socials{
-:last-child{border:none;}
-
+list-style-type: none;
 display: flex;
-flex-wrap:wrap;
-justify-content:center;
-li{border-right: 1px solid rgba(33,33,33,.2);
-}}
+margin-left:40px;
+margin-right:83px;
+gap:10px;
+}
 
 
     
@@ -119,11 +118,20 @@ line-height:1,22;
 letter-spacing: 0.02em;
 text-decoration: none;
 color:$light-blue;
-padding-right:10px;
 
 
 
-}}
+
+
+}
+&__separate{
+    list-style-type: none;
+    width:1px;
+    height:100%;
+    color: rgba(33,33,33,.2);
+}
+
+}
 
 
 
