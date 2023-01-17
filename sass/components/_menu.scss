@@ -24,6 +24,9 @@
 background-color: transparent;
 border: none;}
 
+&__toggle svg:hover ,
+&__toggle svg:focus{ color:$light-blue;}
+
 &__cls-btn{
 position: absolute;
 top:10px;
@@ -53,6 +56,11 @@ list-style-type:none;
 a
 {text-decoration: none;
 color:$black;}}
+
+&__navigation-links a :hover,
+&__navigation-links a :focus{
+color:$light-blue;
+}
 
 &__contact{
 margin-left:40px;
