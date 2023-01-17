@@ -58,7 +58,11 @@
     color:$light-blue;
     display: block;
     position:absolute;
-    bottom:-32px; }}
+    bottom:-22px; 
+
+@media(min-width:1200px){
+    bottom:-32px;
+}}}
     
 
     // .navigation{

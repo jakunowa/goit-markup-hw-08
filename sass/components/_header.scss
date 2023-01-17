@@ -29,12 +29,7 @@ padding-left:15px;
 
 
      @media(min-width:1200px){   
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;
-    color:$black;
     margin-right: 93px;
     // margin-left:unset;
     padding-left:unset;
@@ -58,7 +53,7 @@ padding-left:15px;
 
        @media(min-width:768px){
         max-width:134px;
-        width:100%;
+       
        }
        @media(min-width:1200px){
        max-width:1200px;
@@ -88,7 +83,7 @@ padding-left:15px;
 
      @media(min-width:1200px){   
     display: flex;
-    list-style-type: none;
+
     margin-left: 371px;
     gap:32px;}}
             
@@ -110,8 +105,7 @@ padding-left:15px;
 
 
 
-        @media(min-width:1200px){
-    } }
+    }
             
     &__contact-links:hover svg,
     &__contact-links:focus svg{ fill:$light-blue;} 
