@@ -106,12 +106,15 @@ padding-left:15px;
 
 
     }
+    &__contact-links:focus,
+        &__contact-links:hover {
+        color:$light-blue;}
             
     &__contact-links:hover svg,
     &__contact-links:focus svg{ fill:$light-blue;} 
             
-    &__contact-links &__burger:focus,
-    &__contact-links &__burger:hover {
+    &__burger:focus,
+    &__burger:hover {
     color:$light-blue;}
             
     &__contact-icon{vertical-align: middle; 
