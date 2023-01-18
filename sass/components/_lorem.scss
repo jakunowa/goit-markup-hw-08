@@ -1,5 +1,9 @@
 .lorem{
     padding-top: 60px;
+    @media(min-width:1200px){
+        padding-top:94px;
+        
+    }
     
     
     
@@ -43,7 +47,11 @@
     line-height: 1.71;
     color:$grey;
     letter-spacing: 0.03em;
-    margin-bottom:60px;}}
+    margin-bottom:60px;
+
+@media(min-width:1200px){
+    margin-bottom:unset;
+}}}
         
     
     
