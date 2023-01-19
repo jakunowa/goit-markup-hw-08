@@ -23,8 +23,11 @@
         display: flex;
     flex-wrap:wrap;
     list-style-type: none;
-    
-    gap:30px;}
+    padding: 0 10px;
+    gap:30px;
+@media(min-width:480px){
+    padding:unset;
+}}
         
     &__logo{
     border: 1px solid $our-clients-border;
