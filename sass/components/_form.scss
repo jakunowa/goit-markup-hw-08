@@ -12,9 +12,15 @@
     &__input
     {display: flex;
     flex-direction: column;
-width:100%;
+width:90%;
+margin: 0 auto;
 
 display: block;
+@media(min-width:4800px){
+    width:100%;
+max-width:450px;
+    padding:unset;
+    display:flex;}}
 
 @media(min-width:1200px){
 width:unset;
@@ -35,7 +41,7 @@ display:flex;}}
        
     }
     }
-    text-align: center;
+   
         
     &__input-details{
     padding-left:16px;
@@ -44,14 +50,15 @@ display:flex;}}
     background-color:$main-background-color;
     border-radius:4px;
     border: 1px solid  rgba(255, 255, 255, 0.3);
-    width:100%;
-    max-width:290px;
+    width:90%;
+  margin:0 auto;
     margin-top:20px;
     
     margin-bottom:20px;
 
     @media(min-width:480px){
         max-width:450px;
+        width:100%;
     }
     @media(min-width:1200px){
   width: 358px;
@@ -85,7 +92,7 @@ display:flex;}}
     fill: $white;
     margin-left:24px;
     position: absolute;
-    top:30%; }}
+    top:30%; }
 // .form-main{width:100%;
 //     display: flex;}
     
