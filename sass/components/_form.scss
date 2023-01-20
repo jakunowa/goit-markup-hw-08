@@ -9,21 +9,21 @@
 
 }
 &__input
-{display: flex;
-flex-direction: column;
+{
 width:100%;
+max-width: 450px;
+text-align:center;
 
-
-display: block;
-@media(min-width:480px){
-width:100%;
-max-width:450px;}
+// @media(min-width:480px){
+// width:100%;
+// max-width:450px;}
 
 
 @media(min-width:1200px){
 width:unset;
 padding:unset;
-display:flex;}}
+display:flex;
+flex-direction: column;}}
 
     
 &__label{
