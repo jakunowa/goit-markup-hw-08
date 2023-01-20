@@ -20,7 +20,7 @@ display: block;
     width:100%;
 max-width:450px;
     padding:unset;
-    display:flex;}}
+    display:flex;}
 
 @media(min-width:1200px){
 width:unset;
@@ -28,7 +28,7 @@ padding:unset;
 display:flex;}}
 
         
-    &__label{
+&__label{
     font-style:Bold;
     font-size:14px;
     font-weight: 700;
@@ -93,6 +93,7 @@ display:flex;}}
     margin-left:24px;
     position: absolute;
     top:30%; }
+}
 // .form-main{width:100%;
 //     display: flex;}
     
